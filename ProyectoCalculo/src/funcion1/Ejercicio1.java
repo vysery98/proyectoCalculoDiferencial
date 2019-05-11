@@ -30,7 +30,7 @@ public class Ejercicio1 {
                     System.out.println("TABLA DE VALORES");
 
                     // entrada de datos
-                    System.out.print("Ingrese el número a asignar a \"x\"");
+                    System.out.print("Ingrese el número a asignar a 'x'=");
                     Variables.varInd = scan.nextInt();
 
                     // proceso
@@ -38,11 +38,9 @@ public class Ejercicio1 {
                             + (2 * Variables.limInf) - 7);
 
                     // salida
-                    System.out.println("NaN = Not a Number (resultado imposible"
-                            + " de calcular).");
-                    System.out.println("x\t|\tf(x)");
-                    System.out.printf("%d\t|\t%.2f\n", Variables.varInd,
-                            Variables.varDep);
+                    System.out.printf("NaN = Not a Number (resultado imposible"
+                            + " de calcular).\nx\t|\tf(x)\n%d\t|\t%.2f\n",
+                            Variables.varInd, Variables.varDep);
 
                     break;
 
@@ -96,8 +94,7 @@ public class Ejercicio1 {
 
                     // salida
                     System.out.println("NaN = Not a Number (resultado imposible"
-                            + " de calcular).");
-                    System.out.println("x\t|\tf(x)");
+                            + " de calcular).\nx\t|\tf(x)");
                     for (int i = 0; i <= Variables.lim; i++) {
                         System.out.printf("%.0f\t|\t%.2f\n", Variables.x[i],
                                 Variables.y[i]);
@@ -112,7 +109,7 @@ public class Ejercicio1 {
                     break;
 
                 default:
-                    System.out.println("Opción invalida.\nf(x)= 2x^3 + 2x - 7");
+                    System.out.println("Opción inválida.\nf(x)= 2x^3 + 2x - 7");
             }
 
         } while (Variables.salir);
