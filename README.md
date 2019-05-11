@@ -1,4 +1,4 @@
-# proyectoCalculoDiferencial
+# Proyecto
 # **Universidad Técnica Particular de Loja**
 ## Integrantes:
 ### Joan Briceño
