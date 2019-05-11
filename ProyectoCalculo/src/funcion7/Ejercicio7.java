@@ -1,12 +1,12 @@
-package funciones;
+package funcion7;
 
 /**
  *
  * @author vysery98
  */
-public class Ejercicio2 {
+public class Ejercicio7 {
 
-    // f(x)= (3x^2)^3 + 2/3x
+    // f(x)= x^3 + 2^(1/2)
     public static void main(String[] args) {
 
     }

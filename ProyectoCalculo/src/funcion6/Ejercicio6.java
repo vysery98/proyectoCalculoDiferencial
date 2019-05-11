@@ -1,12 +1,12 @@
-package funciones;
+package funcion6;
 
 /**
  *
  * @author vysery98
  */
-public class Ejercicio8 {
+public class Ejercicio6 {
 
-    // f(x)= (8x^2/x^2)+(4x^3/7x^2)
+    // f(x)= ((5x^2)/(x-1))^(1/2)
     public static void main(String[] args) {
 
     }
