@@ -34,8 +34,8 @@ public class Ejercicio1 {
                     Variables.varInd = scan.nextInt();
 
                     // proceso
-                    Variables.varDep = (2 * Math.pow(Variables.limInf, 3)
-                            + (2 * Variables.limInf) - 7);
+                    Variables.varDep = (2 * Math.pow(Variables.varInd, 3)
+                            + (2 * Variables.varInd) - 7);
 
                     // salida
                     System.out.printf("NaN = Not a Number (resultado imposible"
