@@ -87,8 +87,8 @@ public class Ejercicio7 {
                             Variables.x[i] = (Variables.limInf);
                         }
 
-                        Variables.y[i] = (2 * Math.pow(Variables.limInf, 3) + (2
-                                * Variables.limInf) - 7);
+                        Variables.y[i] = (Math.pow(Variables.limInf, 3)) 
+                            + (Math.pow(2,1/2));
                         Variables.limInf++;
 
                     }

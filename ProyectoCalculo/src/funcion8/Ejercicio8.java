@@ -90,8 +90,10 @@ public class Ejercicio8 {
                             Variables.x[i] = (Variables.limInf);
                         }
 
-                        Variables.y[i] = (2 * Math.pow(Variables.limInf, 3) + (2
-                                * Variables.limInf) - 7);
+                        Variables.y[i] = ((8 * Math.pow(Variables.limInf, 2))
+                            / (Math.pow(Variables.limInf, 2))) 
+                            + (4 * Math.pow(Variables.limInf, 3)) 
+                            / (7 * Math.pow(Variables.limInf, 2));
                         Variables.limInf++;
 
                     }
